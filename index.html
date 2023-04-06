@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Joshua Vidal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--FAV ICON-->
+    <link rel="icon" href="pictures/favicon.png" />
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="index.js"></script>
+</head>
+<body id="top">
+    <!--Head icon-->
+    <img src="pictures/favicon.png" alt="logo" width="50" height="50" />
+    <button onclick="setColorScheme1()">Color Scheme 1</button>
+    <button onclick="setColorScheme2()">Color Scheme 2</button>
+    <button onclick="setColorScheme3()">Color Scheme 3</button>
+    <!--The links to all my pages and a section in my home page-->
+    <div id="nav" class="link">
+        <p>
+            <a href="index.html"> Home</a>
+            <a href="#aboutme" id="about-me-link"> About Me</a>
+            <a href="career.html"> Career</a>
+            <a href="interests.html"> Interests</a>
+            <a href="helpme.html"> Pictures</a>
+        </p>
+    </div>
+    <!--Creates a line so that the navigation bar is separated from the elements below the line-->
+    <hr />
+    <!--This div id is connected to the About Me link in the Navigation bar-->
+    <div>
+        <div id="index.html" class="centered">
+            <h1>Joshua Vidal</h1>
+            <!--A photo that is in the pictures folder that is named "a_photo_of_me" which is then placed below the Header 1 with alt text-->
+            <img src="pictures/a_photo_of_me.png" alt="A photo of me :)" width="300" height="400" class="revert" style="display: block; margin: 0 auto;">
+        </div>
+        <div class="centered">
+            <h2>About Me</h2>
+            <p>
+                Welcome to my Website! My name is Joshua, I am a student in Dalhousie and I am currently taking the Bachelor's of Computer
+                Science. One of the courses I am taking is 1170 Web development. It is a fun and amazing course which gives lessons on how
+                to make a website.
+            </p>
+
+            <p>
+                My favourite Song is called "Better Now" by Post Malone. He is a talented artist that produces lots of great songs.
+                Here is the audio of his song:
+            </p>
+
+            <!--Audio file that is located in audio folder and has 4 audio elements: autoplay, controls, loop, muted-->
+            <div style="display: flex; justify-content: center; align-items: center;">
+                <audio autoplay controls loop muted style="width: 50%;">
+                    <source src="audio/BetterNow.mp3" />
+                </audio>
+            </div>
+        </div>
+    </div>
+
+    <div id="aboutme">
+        <div class="centered">
+            <h2>More About Me</h2>
+            <p>
+                Two of my favourite hobbies are reading and playing games. If you want more info on this please check my
+                <!--Link to the interests page-->
+                <a href="interests.html"> Interests</a> page.
+                Lately, I have started learning on game development. One of my projects is a zombie survival. Although it is basic,
+                it is going to be one of my most important foundation to creating an excellent game in the future. I am also an editor
+                and here is one of my videos in my youtube channel:
+                <!--Plays an embedded Youtube video from the iframe and has a width, height, title, frameborder, allow, allowfullscreen-->
+                <style>
+                    .container {
+                        text-align: center;
+                    }
+                </style>
+                <div class="container">
+                    <iframe src="https://www.youtube.com/embed/VEqtqG039ZA" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </p>
+
+            <h2>Studies</h2>
+            <p>
+                I graduated from AGS (Abu Dhabi Grammar School), located in Abu Dhabi, U.A.E. Additionally, I graduated with honours with
+                distinction. I also received multiple academic awards during my time in AGS.
+            </p>
+            <!--External link which is inside the image which goes to the teacherhorizons website-->
+            <div class="image-container">
+                <a href="https://www.teacherhorizons.com/static/mediav2/schools/3982/images/535445_main.jpg">
+                    <img src="https://www.teacherhorizons.com/static/mediav2/schools/3982/images/535445_main.jpg" alt="my school" width="300" height="150" />
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <hr />
+    <!--Links that go back to the interests page, section in index page, career page, and the top of the index page-->
+    <div id="nav" class="link">
+        <p>
+            <a href="index.html"> Home</a>
+            <a href="#aboutme"> About Me</a>
+            <a href="career.html"> Career</a>
+            <a href="interests.html"> Interests</a>
+            <a href="helpme.html"> Pictures</a>
+            <a href="#top"> To the top</a>
+        </p>
+    </div>
+
+    <a id="top"></a>
+
+
+    <div>
+        <p>Contacts: js800784@dal.ca</p>
+    </div>
+</body>
+</html>

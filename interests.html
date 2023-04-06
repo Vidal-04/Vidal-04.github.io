@@ -1,0 +1,130 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Interests</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--FAV ICON-->
+    <link rel="icon" href="pictures/favicon.png" />
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="index.js"></script>
+</head>
+<body>
+    <!--Head icon-->
+    <img src="pictures/favicon.png" alt="Logo" width="50" height="50" />
+    <button onclick="setColorScheme1()">Color Scheme 1</button>
+    <button onclick="setColorScheme2()">Color Scheme 2</button>
+    <button onclick="setColorScheme3()">Color Scheme 3</button>
+    <!--The links to all my pages and a section in my home page-->
+    <div class="link">
+        <p>
+            <a href="index.html"> Home</a>
+            <a href="index.html#aboutme"> About Me</a>
+            <a href="career.html"> Career</a>
+            <a href="interests.html"> Interests</a>
+            <a href="helpme.html"> Pictures</a>
+        </p>
+    </div>
+
+    <!--Creates a line so that the navigation bar is separated from the elements below the line-->
+    <hr />
+
+    <!--First header is interest which is the main topic of the page-->
+    <div class="centered">
+        <h1>Interests</h1>
+        <h2>My favourite things:</h2>
+    </div>
+
+    <!--Here is a table of my favourite things and inside the table is a table datum of my favourite things with their pictures below-->
+    <table>
+        <tr>
+            <!--TEXTS TO DESCRIBE PICTURES AND ARE ABOVE THE PICTURES-->
+            <td>1. Favourite Book</td>
+            <td>2. Favourite Sport</td>
+            <!--End of first row-->
+        </tr>
+        <tr>
+            <!--picures with their relative links and alt text with a specific width and height size-->
+            <td>
+                <img src="pictures/percyjacksonbook.jpg" alt="Percy Jackson Book" width="300" height="400" />
+            </td>
+            <td>
+                <img src="pictures/basketball.png" alt="Basketball" width="200" height="200" />
+            </td>
+            <!--End of second row-->
+        </tr>
+
+        <!--TEXTS TO DESCRIBE PICTURES AND ARE ABOVE THE PICTURES-->
+        <tr>
+            <td>3. Favourite Place</td>
+            <td>4. Favourite Food</td>
+            <!--End of third row-->
+        </tr>
+
+        <tr>
+            <td>
+                <!--picures with their relative links and alt text with a specific width and height size-->
+                <img src="pictures/lasvegas.jpg" alt="Las Vegas" width="400" height="300" />
+            </td>
+            <td>
+                <img src="pictures/adobo.jpg" alt="Adobo" width="400" height="300" />
+            </td>
+            <!--End of fourth row-->
+        </tr>
+        <!--End of table-->
+    </table>
+
+    <div class="centered">
+        <!--Ordered list which explains why those are my favourite things.-->
+        <ol>
+            <li>
+                My favourite book series is Percy Jackson. My favourite book in that series is Percy Jackson and the Lightning
+                Thief. It has an engaging plot mixed with action, comedy, and drama. I recommend reading it if you haven't read it yet.
+            </li>
+            <li>
+                My favourite Sport is basketball. It is a game where two teams of five go against each other to score in their hoop while
+                defending the opposing team from scoring.
+            </li>
+            <li>
+                My favourite Place is Las Vegas. I went there for a two-week vacation to visit my grandparent. It was a wild experience
+                with lots of drinks and partying.
+            </li>
+            <li>
+                My favourite Food is Adobo. Adobo is a Filipino dish that consists of chicken, garlic, salt, onion, vinegar, soy sauce.
+                It is a tasty dish that can go along with any other dishes.
+            </li>
+        </ol>
+    </div>
+
+    <div class="centered">
+        <h2>More of my interests</h2>
+        <!--Here is a video file which has the following control scheme: width, autoplay, and mute-->
+        <p>
+            I started learning playing the guitar and here is a video of me playing "It's You" by Ali Gatie: <br />
+            <video controls width="500" autoplay muted>
+                <source src="videos/coverbyme.mov" />
+            </video>
+        </p>
+
+
+        <h3>Thank you for visiting my Site!</h3>
+        <!--A GIF file to give thanks to the reader once they have finished checking my page-->
+        <img src="pictures/thankyou.gif" alt="Thank You!" width="300" height="300" />
+    </div>
+
+    <hr />
+    <!--Links that go back to the index page, section in index page, career page, and the top of the interests page-->
+    <div class="link">
+        <p>
+            <a href="index.html"> Home</a>
+            <a href="index.html#aboutme"> About Me</a>
+            <a href="career.html"> Career</a>
+            <a href="interests.html"> Interests</a>
+            <a href="helpme.html"> Pictures</a>
+        </p>
+    </div>
+    <p>Contacts: js800784@dal.ca</p>
+</body>
+</html>

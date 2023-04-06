@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Pictures</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--FAV ICON-->
+    <link rel="icon" href="pictures/favicon.png" />
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="sidebar">
+            <h2>Sidebar</h2>
+            <p>
+                <a href="index.html"> Home</a> <br />
+                <a href="index.html#aboutme"> About Me</a><br />
+                <a href="career.html"> Career</a><br />
+                <a href="interests.html"> Interests</a><br />
+                <a href="helpme.html"> Pictures</a>
+            </p>
+
+        </div>
+
+        <div class="main_content">
+            <button onclick="setColorScheme1()">Color Scheme 1</button>
+            <button onclick="setColorScheme2()">Color Scheme 2</button>
+            <button onclick="setColorScheme3()">Color Scheme 3</button>
+            <div class="centered">
+                <h1>Pictures</h1>
+                <h2>Dogs and Cats Photos</h2>
+            </div>
+            <div class="centered">
+                <div class="container">
+                    <ul class="grid">
+                        <li class="grid-item"><img src="https://hips.hearstapps.com/hmg-prod/images/wolf-dog-breeds-siberian-husky-1570411330.jpg?crop=0.668xw:1.00xh" alt="Photo 1"></li>
+                        <li class="grid-item"><img src="https://placedog.net/640/480?random=1" alt="Photo 2"></li>
+                        <li class="grid-item"><img src="https://placedog.net/640/480?random=2" alt="Photo 3"></li>
+                        <li class="grid-item"><img src="https://placedog.net/640/480?random=3" alt="Photo 4"></li>
+                        <li class="grid-item"><img src="https://placedog.net/640/480?random=4" alt="Photo 5"></li>
+                        <li class="grid-item"><img src="https://thumbs.dreamstime.com/b/random-cat-love-cats-pet-catsslave-110819582.jpg" alt="Photo 6"></li>
+                        <li class="grid-item"><img src="https://placedog.net/640/480?random=5" alt="Photo 7"></li>
+                        <li class="grid-item"><img src="https://www.humanesociety.org/sites/default/files/2022-08/hl-yp-cats-579652.jpg" alt="Photo 8"></li>
+                        <li class="grid-item"><img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/cute-photos-of-cats-cuddling-1593203046.jpg" alt="Photo 9"></li>
+                        <li class="grid-item"><img src="https://placedog.net/1024/768?random=6" alt="Photo 10"></li>
+                        <li class="grid-item"><img src="https://placedog.net/1024/768?random=7" alt="Photo 11"></li>
+                        <li class="grid-item"><img src="https://placedog.net/1024/768?random=8" alt="Photo 12"></li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="centered">
+                <h2>
+                    Review
+                </h2>
+                <form>
+                    <p>Did you like my web page?</p>
+                    <div>
+                        <input type="radio" name="option" value="Yes" id="yes">
+                        <label for="yes">Yes</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="option" value="No" id="no">
+                        <label for="no">No</label>
+                    </div>
+                    <p>
+                        <input type="submit">
+                    </p>
+                </form>
+                <label for="age-input">Enter your age:</label>
+                <input type="number" id="age-input">
+                <button onclick="checkAge()">Check Age</button>
+                <p id="vote-message"></p>
+
+                <button id="myButton">Click me!</button>
+                <p id="myText">This is some text.</p>
+                <script>
+                    const button = document.querySelector('#myButton');
+                    const text = document.querySelector('#myText');
+
+                    button.addEventListener('click', function () {
+                        text.textContent = 'You clicked the button!';
+                    });
+                </script>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
