@@ -6,6 +6,12 @@ specific page to a different specific page. There are multiple pictures which ar
 There are video files and video links which are referenced below. There is a Fav and Head icon. This website also 
 informs the individual about computer development.
 
+I have removed some folders from the original because the file was too big. I removed:
+Assignment 3 - Format folder
+Assignment 3 - pallets folder
+PDF files
+word documents
+
 career.html contents:
 [4] project, "C.through E.U.S.B.S.R. (no date) "it is a good start if you like playing games" – working as a game developer in the Baltic Sea Region, EUSBSR. Available at: https://www.balticsea-region-strategy.eu/news-room/highlights-blog/item/85-it-is-a-good-start-if-you-like-playing-games-working-as-a-game-developer-in-the-baltic-sea-region (Accessed: February 9, 2023). Which is located in: career.html - line 21.
 [5] Wikipedia (2023) Unity (Game Engine), Wikipedia. Wikimedia Foundation. Available at: https://en.wikipedia.org/wiki/Unity_%28game_engine%29 (Accessed: February 9, 2023). Which is located in: career.html – line 71.
